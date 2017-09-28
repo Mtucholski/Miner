@@ -5,6 +5,8 @@ import javax.swing.border.*;
 import java.awt.*;
 import java.util.Random;
 import java.awt.event.*;
+import java.util.Iterator;
+import java.util.ListIterator;
 import javax.imageio.ImageIO;
 
 public class game extends JFrame {
@@ -387,5 +389,8 @@ class timeThread implements Runnable {
             t.start();
         }
     }
+    
+ 
+         
 }
 
